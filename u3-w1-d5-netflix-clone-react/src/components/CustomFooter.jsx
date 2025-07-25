@@ -4,7 +4,7 @@ import { ListGroup } from "react-bootstrap"
 function CustomFooter() {
   return (
     <>
-      <Container className="d-md-block">
+      <Container className="d-md-block mt-5">
         <Row className="px-5">
           <Col>
             <i className="bi bi-facebook text-secondary me-3"></i>

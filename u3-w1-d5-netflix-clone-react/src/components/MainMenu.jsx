@@ -15,10 +15,14 @@ function MainMenu() {
               <Dropdown.Toggle variant="dark" id="dropdown-basic">
                 Genres
               </Dropdown.Toggle>
-              <Dropdown.Menu>
-                <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-                <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+              <Dropdown.Menu className="dropdown-menu dropdown-menu-dark">
+                <Dropdown.Item href="#/action-1">Warhammer 40k</Dropdown.Item>
+                <Dropdown.Item href="#/action-2">
+                  Pirates of the Caribbean
+                </Dropdown.Item>
+                <Dropdown.Item href="#/action-3">
+                  Lord of the Ring
+                </Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
           </div>

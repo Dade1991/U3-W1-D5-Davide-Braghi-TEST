@@ -36,9 +36,9 @@ class MovieCarousel extends Component {
 
   render() {
     return (
-      <Container className="mt-3 mb-3">
+      <Container className="mt-5 mb-3">
         <h2 className="text-white">Enter the MATRIX</h2>
-        <Carousel data-bs-theme="dark" className="mt-5">
+        <Carousel data-bs-theme="dark" className="mt-2">
           <Carousel.Item>
             <Row>
               <Col>

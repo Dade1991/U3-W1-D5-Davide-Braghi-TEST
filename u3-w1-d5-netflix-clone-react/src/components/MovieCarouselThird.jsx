@@ -42,14 +42,14 @@ class MovieCarouselThird extends Component {
           <Carousel.Item>
             <Row>
               <Col>
-                <SingleMovie movieCover={this.state.movies} />
+                <SingleMovie movieCover={this.state.movies.slice(0, 6)} />
               </Col>
             </Row>
           </Carousel.Item>
           <Carousel.Item>
             <Row>
               <Col>
-                <SingleMovie movieCover={this.state.movies} />
+                <SingleMovie movieCover={this.state.movies.slice(6, 12)} />
               </Col>
             </Row>
           </Carousel.Item>

@@ -4,9 +4,9 @@ import Container from "react-bootstrap/esm/Container"
 import SingleMovie from "./SingleMovie"
 import { Row, Col } from "react-bootstrap/esm"
 
-const endPoint = "http://www.omdbapi.com/?apikey=bca9c7b9&s=Matrix"
+const endPoint = "http://www.omdbapi.com/?apikey=bca9c7b9&s=Star Wars"
 
-class MovieCarousel extends Component {
+class MovieCarouselThird extends Component {
   state = {
     movies: [],
   }
@@ -37,7 +37,7 @@ class MovieCarousel extends Component {
   render() {
     return (
       <Container className="mt-3 mb-3">
-        <h2 className="text-white">Enter the MATRIX</h2>
+        <h2 className="text-white">"Hello there!"</h2>
         <Carousel data-bs-theme="dark" className="mt-5">
           <Carousel.Item>
             <Row>
@@ -57,4 +57,4 @@ class MovieCarousel extends Component {
   }
 }
 
-export default MovieCarousel
+export default MovieCarouselThird

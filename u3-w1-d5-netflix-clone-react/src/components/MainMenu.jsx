@@ -24,10 +24,10 @@ function MainMenu() {
           </div>
           <div>
             <Navbar.Brand href="#" className="fw-bold text-light ms-2">
-              <i class="bi bi-grid"></i>
+              <i className="bi bi-grid"></i>
             </Navbar.Brand>
             <Navbar.Brand href="#" className="fw-bold text-light ms-2">
-              <i class="bi bi-grid-3x3-gap"></i>
+              <i className="bi bi-grid-3x3-gap"></i>
             </Navbar.Brand>
           </div>
         </Container>

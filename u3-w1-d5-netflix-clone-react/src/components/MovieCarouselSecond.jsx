@@ -38,7 +38,7 @@ class MovieCarouselSecond extends Component {
     return (
       <Container className="mt-5 mb-3">
         <h2 className="text-white">The Alien Saga</h2>
-        <Carousel data-bs-theme="dark" className="mt-2">
+        <Carousel indicators={false} data-bs-theme="dark" className="mt-3">
           <Carousel.Item>
             <Row>
               <Col>
@@ -47,9 +47,11 @@ class MovieCarouselSecond extends Component {
             </Row>
           </Carousel.Item>
           <Carousel.Item>
-            <div className="d-flex flex-row">
-              <SingleMovie movieCover={this.state.movies} />
-            </div>
+            <Row>
+              <Col>
+                <SingleMovie movieCover={this.state.movies} />
+              </Col>
+            </Row>
           </Carousel.Item>
         </Carousel>
       </Container>

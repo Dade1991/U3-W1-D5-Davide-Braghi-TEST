@@ -13,8 +13,8 @@ const SingleMovie = ({ movieCover }) => {
       {
         breakpoint: 1200,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToShow: 2,
+          slidesToScroll: 2,
         },
       },
       {

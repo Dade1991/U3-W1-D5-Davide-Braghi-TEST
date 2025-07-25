@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import "./components/SingleMovie.css"
 import CustomNavBar from "./components/CustomNavBar"
 import MainMenu from "./components/MainMenu"
-import MovieCarousel from "./components/MovieCarousel"
+import MovieCarouselFirst from "./components/MovieCarouselFirst"
 import MovieCarouselSecond from "./components/MovieCarouselSecond"
 import MovieCarouselThird from "./components/MovieCarouselThird"
 import CustomFooter from "./components/CustomFooter"
@@ -14,7 +14,7 @@ function App() {
     <>
       <CustomNavBar />
       <MainMenu />
-      <MovieCarousel />
+      <MovieCarouselFirst />
       <MovieCarouselSecond />
       <MovieCarouselThird />
       <CustomFooter />

@@ -10,7 +10,7 @@ function App() {
     <>
       <CustomNavBar />
       <MainMenu />
-      <MovieCarousel />
+      <MovieCarousel SectionTitle="" />
     </>
   )
 }

@@ -1,11 +1,11 @@
+import "bootstrap/dist/css/bootstrap.min.css"
 import "./App.css"
-import "./boostrap/dist/css/bootstrap.min.css"
-import "./components/CustomNavBar"
+import CustomNavBar from "./components/CustomNavBar"
 
 function App() {
   return (
     <>
-      <CustomNavbar />
+      <CustomNavBar />
     </>
   )
 }

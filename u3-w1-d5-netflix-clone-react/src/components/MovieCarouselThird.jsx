@@ -38,7 +38,7 @@ class MovieCarouselThird extends Component {
     return (
       <Container className="mt-5 mb-3">
         <h2 className="text-white">"Hello there!"</h2>
-        <Carousel indicators={false} data-bs-theme="dark" className="mt-3">
+        <Carousel indicators={false} data-bs-theme="dark" className="mt-2">
           <Carousel.Item>
             <Row>
               <Col>
